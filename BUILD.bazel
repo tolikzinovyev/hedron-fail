@@ -1,0 +1,5 @@
+cc_binary(
+    name = "a",
+    srcs = ["a.cc"],
+    deps = ["@com_google_absl//absl/container:fixed_array"],
+)
